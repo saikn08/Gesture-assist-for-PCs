@@ -1,5 +1,5 @@
 # Gesture Assist for PCs
-CONTROL YOUR COMPUTER WITH YOUR HAND-- control media, volume, mouse, shift through different apps, easily scroll through data, and even more..
+CONTROL YOUR COMPUTER WITH YOUR HAND-- control media, volume, mouse, shift through different apps, easily scroll through data, and even more......
 
 Gesture Assist for PCs is a Windows webcam controller that uses OpenCV and CVZone hand landmarks to turn hand poses and movements into mouse, window, display, and media actions. An OK-sign clutch enables mouse control; a separate Yo/shaka-style clutch switches the remaining controls between window/navigation and media/volume modes. The camera preview shows the current mode, recognized gesture, system levels, and recent action.
 
