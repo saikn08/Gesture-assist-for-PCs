@@ -8,7 +8,7 @@ Install Python and a working webcam, then install the packages used by the scrip
 
 ```powershell
 python -m pip install opencv-python cvzone mediapipe pyautogui pycaw comtypes joblib numpy
-python simple_app_mouse_merged.py
+python main.py
 ```
 
 This program is Windows-specific: it uses Win32 key/mouse events, PyCAW audio, and Windows WMI/PowerShell for brightness. Press **q** in the camera window to quit. The script tries camera indices 0, 1, and 2 before falling back to camera 0. It mirrors the image and tracks up to two hands. An optional model at `models/static_gesture_rf.joblib` can supplement some gesture labels; the geometric controls also work without that file.
